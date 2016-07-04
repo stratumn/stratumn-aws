@@ -1,0 +1,27 @@
+{
+  "name": "stratumn-aws",
+  "description": "AWS helper to be used in a Stratumn Agent",
+  "version": "0.0.0",
+  "dependencies": {
+    "aws-sdk": "^2.4.4",
+    "crypto": "0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.0.2",
+    "babel-eslint": "^6.0.0"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "lint": "eslint index.js example.js"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Stratumn Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stratumn/stratumn-aws.git"
+  }
+}
