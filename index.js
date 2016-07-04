@@ -26,10 +26,13 @@ module.exports = (agent) => {
       });
 
   return {
+    // returns a new signed URL that can be used to upload a file
     put: (params) => awsRequest('putObject', params),
 
+    // returns a new signed URL that can be used to read a file
     get: (params) => awsRequest('getObject', params),
 
+    // reads the hash of a file
     readHash: (params) =>
       new Promise(
         (resolve, reject) => {
