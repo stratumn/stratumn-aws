@@ -1,7 +1,7 @@
 {
   "name": "stratumn-aws",
   "description": "AWS helper to be used in a Stratumn Agent",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "dependencies": {
     "aws-sdk": "^2.4.4",
     "crypto": "0.0.3"
