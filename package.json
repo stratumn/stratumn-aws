@@ -19,7 +19,7 @@
     "registry": "http://registry.npmjs.org"
   },
   "author": "Stratumn Team",
-  "license": "MIT",
+  "license": "MPL-2.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:stratumn/stratumn-aws.git"

@@ -56,4 +56,4 @@ module.exports = {
 
 ## License
 
-MIT
+Mozilla Public License 2.0
